@@ -1,0 +1,15 @@
+{
+  "database": {
+    "type": "sqlite",
+    "path": "./database/requests.db",
+    "useExternalDatabase": false,
+    "externalDatabasePath": "C:\\Users\\tamil\\Desktop\\requests.db"
+  },
+  "server": {
+    "port": 3000
+  },
+  "app": {
+    "name": "Request Management System",
+    "version": "1.0.0"
+  }
+}
