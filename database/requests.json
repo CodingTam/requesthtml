@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "username": "admin",
+      "email": "admin@system.com",
+      "password": "admin123",
+      "team": "Administration",
+      "description": "System Administrator",
+      "status": "approved",
+      "isAdmin": true,
+      "created_at": "2025-09-24T22:50:28.453Z",
+      "updated_at": "2025-09-24T22:50:28.454Z"
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "username": "alice.johnson",
+      "email": "alice@company.com",
+      "password": "password123",
+      "team": "Marketing Team",
+      "description": "Marketing Specialist",
+      "status": "approved",
+      "isAdmin": false,
+      "created_at": "2025-09-24T22:50:28.454Z",
+      "updated_at": "2025-09-24T22:50:28.454Z"
+    },
+    {
+      "id": 3,
+      "name": "Bob Smith",
+      "username": "bob.smith",
+      "email": "bob@company.com",
+      "password": "password123",
+      "team": "Development Team",
+      "description": "Senior Developer",
+      "status": "approved",
+      "isAdmin": false,
+      "created_at": "2025-09-24T22:50:28.454Z",
+      "updated_at": "2025-09-24T22:50:28.454Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "request_id": "REQ20240101001",
+      "requestor_name": "Alice Johnson",
+      "requestor_email": "alice@company.com",
+      "cc_email": "marketing@company.com",
+      "team_name": "Marketing Team",
+      "category_name": "val1",
+      "request_dates": "2024-01-15,2024-01-16",
+      "acct_number": "ACC001",
+      "request_name": "Q1 Marketing Campaign",
+      "currency": "USD",
+      "amount": 15000,
+      "adjustment": 0,
+      "description": "Budget for Q1 digital marketing campaign",
+      "status": "submitted",
+      "user_id": 2,
+      "request_datetime": "2025-09-24T22:50:28.454Z",
+      "created_at": "2025-09-24T22:50:28.454Z"
+    },
+    {
+      "id": 2,
+      "request_id": "REQ20240101002",
+      "requestor_name": "Bob Smith",
+      "requestor_email": "bob@company.com",
+      "cc_email": "dev@company.com",
+      "team_name": "Development Team",
+      "category_name": "val2",
+      "request_dates": "2024-01-20",
+      "acct_number": "ACC002",
+      "request_name": "Development Tools License",
+      "currency": "USD",
+      "amount": 5000.5,
+      "adjustment": 1,
+      "description": "Annual licenses for development tools",
+      "status": "processing",
+      "user_id": 3,
+      "request_datetime": "2025-09-24T22:50:28.454Z",
+      "created_at": "2025-09-24T22:50:28.454Z"
+    }
+  ],
+  "request_status_history": []
+}
