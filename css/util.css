@@ -1,0 +1,94 @@
+/* UTILITY CLASSES */
+
+/* Flexbox utilities */
+.flex-sb-m {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Width utilities */
+.w-full { width: 100%; }
+
+/* Margin utilities */
+.m-b-8 { margin-bottom: 8px; }
+.m-b-16 { margin-bottom: 16px; }
+.m-b-18 { margin-bottom: 18px; }
+.m-b-20 { margin-bottom: 20px; }
+.m-b-24 { margin-bottom: 24px; }
+.m-b-26 { margin-bottom: 26px; }
+.m-b-30 { margin-bottom: 30px; }
+.m-b-32 { margin-bottom: 32px; }
+
+/* Padding utilities */
+.p-t-10 { padding-top: 10px; }
+.p-t-15 { padding-top: 15px; }
+.p-t-20 { padding-top: 20px; }
+.p-t-30 { padding-top: 30px; }
+
+.p-b-10 { padding-bottom: 10px; }
+.p-b-15 { padding-bottom: 15px; }
+.p-b-20 { padding-bottom: 20px; }
+.p-b-30 { padding-bottom: 30px; }
+
+.p-l-10 { padding-left: 10px; }
+.p-l-15 { padding-left: 15px; }
+.p-l-20 { padding-left: 20px; }
+
+.p-r-10 { padding-right: 10px; }
+.p-r-15 { padding-right: 15px; }
+.p-r-20 { padding-right: 20px; }
+
+/* Font size utilities */
+.fs-12 { font-size: 12px; }
+.fs-13 { font-size: 13px; }
+.fs-14 { font-size: 14px; }
+.fs-15 { font-size: 15px; }
+.fs-16 { font-size: 16px; }
+.fs-18 { font-size: 18px; }
+.fs-20 { font-size: 20px; }
+.fs-24 { font-size: 24px; }
+.fs-30 { font-size: 30px; }
+
+/* Text utilities */
+.txt-center { text-align: center; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+
+/* Color utilities */
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #999999;
+}
+
+/* Display utilities */
+.d-block { display: block; }
+.d-inline { display: inline; }
+.d-inline-block { display: inline-block; }
+.d-flex { display: flex; }
+.d-none { display: none; }
+
+/* Position utilities */
+.pos-relative { position: relative; }
+.pos-absolute { position: absolute; }
+.pos-fixed { position: fixed; }
+
+/* Border radius utilities */
+.br-2 { border-radius: 2px; }
+.br-5 { border-radius: 5px; }
+.br-10 { border-radius: 10px; }
+.br-25 { border-radius: 25px; }
+
+/* Contact form checkbox specific */
+.contact100-form-checkbox {
+  display: flex;
+  align-items: center;
+}
